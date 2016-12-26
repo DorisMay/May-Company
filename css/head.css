@@ -1,0 +1,78 @@
+.head{
+	background-color: rgb(255,255,255);
+	height: 101px;
+}
+.flat{
+	float: left;
+	margin: 30px 0 45px 0px;
+	font-size: 30px;
+	color: rgb(119,119,119);
+	cursor: pointer;
+}
+.flat span{
+	font-size: 30px;
+	color: rgb(242,95,91);
+}
+.flat:hover{
+	color: rgb(94,94,94);
+}
+.head ul{
+	float: right;
+	margin-right: 15px;
+}
+.head li{
+	float: left;
+	margin: 30px 0;	
+}
+.head li a{
+	display: block;
+	padding: 5px 15px 6px 15px;
+	line-height: 30px;
+	color: rgb(181,181,181);
+	background-color: rgb(255,255,255);
+	border-radius: 5px;
+}
+.head li a:hover{
+	color: rgb(255,245,244);
+	background-color: rgb(247,123,111);
+	transition: all .3s ease;
+}
+.menu{
+	position: relative;
+}
+.submenu{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	border-radius: 5px;
+	background: rgb(255,255,255);
+	display: none;
+}
+.menu:hover .submenu{
+	display: block;
+}
+.head li input{
+	margin-top: 3px;
+	width: 20px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid rgb(255,255,255);
+	background: url(../images/search-icon.jpg) no-repeat 10px 8px;
+	padding: 0 5px 0 35px;
+	box-sizing: border-box;
+	outline: none;
+}
+.head li input:focus{
+	margin-top: 3px;
+	width: 180px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid rgb(236,236,236);
+	background: url(../images/search-icon.jpg) no-repeat 10px 8px;
+	margin-left: 10px;
+	color: rgb(156,156,156);
+	padding: 0 5px 0 35px;
+	border-radius: 5px;
+	outline: none;
+	transition: all .3s ease;
+}

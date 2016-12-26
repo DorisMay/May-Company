@@ -1,0 +1,43 @@
+.w1140{
+	margin: 0 auto;
+	width: 1140px;
+}
+.w1170{
+	margin: 0 auto;
+	width: 1170px;
+	overflow: hidden;
+}
+.main{
+	margin-bottom: 80px;
+}
+.main ul{
+	margin: 5px 0 30px 0;
+	display: inline-block;
+}
+.main ul li{
+	float: left;
+	margin: 0 10px 10px 0;
+}
+.main ul li a{
+	display: inline-block;
+	background-color: rgb(226,224,225);
+	padding: 10px 15px;
+	color: rgb(125,121,122);
+	border-radius: 5px;
+}
+.main ul li a:hover{
+	background-color: rgb(247,123,111);
+	color: rgb(255,255,255);
+	transition: all .3s ease;
+}
+.main_pic{
+	overflow: hidden;
+}
+.sm_pic1{
+	float: left;
+	margin: 0 23px 23px 0;
+}
+.sm_pic1 img{
+	width: 262px;
+	height: 230px;
+}
