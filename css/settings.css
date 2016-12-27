@@ -66,40 +66,10 @@
 	margin: 0 15px;
 	width: 360px;
 }
-.co{
-	color: rgb(129,117,199);
-}
-.co1{
-	color: rgb(89,172,226);
-}
-.co2{
-	color: rgb(252,179,34);
-}
-.co3{
-	color: rgb(255,108,96);
-}
-.co4{
-	color: rgb(169,216,110);
-}
 .main2{
 	margin: 0 15px;
 	float: left;
 	width: 1140px;
-}
-.bg{
-	background: rgb(156, 206, 68);
-	line-height: 22px;
-	color: rgb(255,255,255);
-}
-.bg1{
-	background: rgb(36, 36, 36);
-	line-height: 22px;
-	color: rgb(255,255,255);
-}
-.bg2{
-	background: rgb(242, 198, 0);
-	line-height: 22px;
-	color: rgb(36, 36, 36);
 }
 .main3{
 	margin: 0 15px;
@@ -164,22 +134,15 @@
 .main6 ol{
 	list-style-type: decimal;	
 	float: left;
-	width: 525px;
-	margin-left: 40px;
-}
-.main6 ul{
-	list-style-type: disc;
-	float: left;
-	width: 525px;
 	margin-left: 40px;
 }
 .main6 li{
-	line-height: 18px;
-	font-size: 13px;
+	line-height: 22px;
 }
 .main7{
 	float: left;
 	margin-top: 30px;
+	margin-bottom: 30px;
 }
 .main7_text{
 	float: left;
@@ -192,12 +155,12 @@
 }
 .main8_text{
 	float: left;
-	margin: 0 15px;
 	width: 360px;
+	margin: 0 15px;
 }
 .main9{
 	float: left;
-	margin-top: 30px;
+	margin-top: 30px;	
 }
 .main9_text{
 	float: left;
